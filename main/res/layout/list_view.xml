@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/postID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POST_ID"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/postUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_alignBaseline="@+id/postID"
+        android:layout_alignBottom="@+id/postID"
+        android:layout_toRightOf="@+id/postID"
+        android:layout_toEndOf="@+id/postID" />
+    <TextView
+        android:id="@+id/postLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/postID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/postPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/postID"
+        android:layout_alignRight="@+id/postUsername"
+        android:layout_alignEnd="@+id/postUsername" />
+    <TextView
+        android:id="@+id/postSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Size"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginEnd="49dp"
+        android:layout_alignBaseline="@+id/postPrice"
+        android:layout_alignBottom="@+id/postPrice"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">13Properties </string>
+
+    <string name="signInButton">Sign In</string>
+    <string name="searchUpButton">Search</string>
+    <string name="Welcome">Welcome</string>
+    <string name="createNewPost">Create New Post</string>
+    <string name="viewMyPost">View My Posts</string>
+    <string name="signOut">Sign Out</string>
+
+    <string-array name="Location">
+        <item>Joo Koon</item>
+        <item>Jurong West</item>
+        <item>Boon Lay</item>
+        <item>Lakeside</item>
+    </string-array>
+
+    <string-array name="SaleLease">
+        <item>For Sale</item>
+        <item>For Rent</item>
+    </string-array>
+
+    <string-array name="Type">
+        <item>HDB</item>
+        <item>Condominium</item>
+        <item>Landed</item>
+    </string-array>
+    <string name="title_activity_login">Signin</string>
+
+    <string name="send">send</string>
+    <string-array name="locations">
+        <item>Pasir Ris</item>
+        <item>Tampines</item>
+        <item>Jurong West</item>
+        <item>Pioneer</item>
+    </string-array>
+    <string-array name="type">
+        <item>HDB</item>
+        <item>Condominium</item>
+        <item>Landed</item>
+    </string-array>
+    <string-array name="rooms">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="salerent">
+        <item>For Sale</item>
+        <item>For Rent</item>
+    </string-array>
+    <string-array name="Furnishing">
+        <item>Fully furnished</item>
+        <item>Unfurnished</item>
+    </string-array>
+    <string-array name="sort">
+        <item>Click here to sort!</item>
+        <item>Sort by size</item>
+        <item>Sort by price</item>
+    </string-array>
+
+
+</resources>

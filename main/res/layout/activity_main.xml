@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hyunjeong.district132.MainActivity"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/noResults"
+        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:layout_marginRight="0dp" />
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+
+        <Spinner
+            android:id="@+id/Type"
+            android:layout_width="356dp"
+            android:layout_height="23dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="209dp"
+            android:entries="@array/Type"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="112dp" />
+
+        <Spinner
+            android:id="@+id/SaleLease"
+            android:layout_width="356dp"
+            android:layout_height="23dp"
+            android:entries="@array/SaleLease"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="73dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/SignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:text="@string/signInButton"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="296dp"
+            android:layout_below="@+id/Search"
+            android:layout_alignLeft="@+id/Search"
+            android:layout_alignStart="@+id/Search" />
+
+        <Button
+            android:id="@+id/Search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Location"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:onClick="search"
+            android:text="@string/searchUpButton"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="367dp" />
+
+        <Spinner
+            android:id="@+id/Location"
+
+            android:layout_width="349dp"
+            android:layout_height="26dp"
+
+            android:layout_alignLeft="@+id/Type"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/Type"
+            android:layout_alignTop="@+id/Type"
+            android:layout_marginTop="33dp"
+            android:entries="@array/Location"
+            android:gravity="center"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="86dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="156dp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
